@@ -1,21 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
-
-const categories = [
-  {
-    id: 'branding',
-    name: 'Branding',
-    description: 'Identidad visual y diseño de marca',
-    image: '/images/branding.jpg'
-  },
-  {
-    id: 'digital',
-    name: 'Digital',
-    description: 'Diseño web y productos digitales',
-    image: '/images/digital.jpg'
-  }
-];
+import { categories } from '@/lib/products';
 
 const CategorySection = () => {
   return (
